@@ -1,6 +1,6 @@
 import Part from './Part';
 
-const Content = ({ parts}) => {
+const Content = ({ parts }) => {
   return (
     <div>
       <Part parte={parts[0].name} exercise={parts[0].exercises} />
